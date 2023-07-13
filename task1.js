@@ -6,22 +6,24 @@
 
 // ```js
 // const apples = 47;
+
 // const grapes = 135;
-// const total = ;
-// console.log(total)
-// const diff = ;
+// const total = 47 + 153;
+// console.log(total);
+
+// const diff = grapes - apples ;
 // console.log(diff)
-// ```
+
 
 // // ## Example 2 - Комбинированные операторы
 
 // // Замени выражение переопределения комбинированным оператором `+=`.
 
 // ```js
-// let students = 100;
-// students = students + 50;
-// console.log(students);
-// ```
+// // let students = 100;
+// // students = students + 50;
+// // console.log(students);
+// // ```
 
 // // ## Example 3 - Приоритет операторов
 
@@ -29,9 +31,10 @@
 // // `result`.
 
 // ```js
-// const result = 108 + 223 - 2 * 5;
+// const result = 155 + 15695 * 55 ;
 // console.log(result);
-// ```
+
+
 
 // // ## Example 4 - Класс Math
 
@@ -210,11 +213,127 @@
 
 // console.log(fruitsArrayLength .length)
 
-function getExtremeElements(array) {
-    const getExtremeElements = ([getExtremeElements.length -1] , [0]);
-    // Change code below this line
-  console.log(getExtremeElements);
-    // Change code above this line
-    getExtremeElements(["apple", "peach", "pear", "banana"])
-  }
+// function getExtremeElements(array) {
+//     const getExtremeElements = ([getExtremeElements.length -1] , [0]);
+//     // Change code below this line
+//   console.log(getExtremeElements);
+//     // Change code above this line
+//     getExtremeElements(["apple", "peach", "pear", "banana"])
+//   }
+
+
+// -------------------------------------------------------------------------------------
+// Навчання!!!!!!!!!!!!!
+// const a = [5] ;
+// const b = a ;
+// console.log(a);
+// console.log(b);
+// a[0] = 500 ;
+// console.log(a);
+// console.log(b);
+
+// const pipi = ["apple", "peach", "pear", "banana"];
+// console.log(pipi.length -1);
+
+// let a =10;
+// let b =a;
+// console.log(a);
+// console.log(b);
+//  a =25;
+// console.log(a);
+// console.log(b);
   
+// const Test = ["apple", "peach", "pear", "banana"];
+// console.table(Test);
+// const index = Test.length - 1;
+// for (let i = 0; i <= index ; i += 1 )
+//  {
+//     console.table(Test[i]);
+
+// }
+
+// Test[1] = 55;
+
+// console.log(Test[0]);
+// console.log(Test);  
+// const index = Test.length -1;
+// console.log (index);
+// console.log(Test); 
+
+// const Test = ["apple", "peach", "pear", "banana"];
+// console.table(Test);
+// for(const Testers of Test){
+// console.log(Testers);
+
+// }
+
+// const cart = [54, 28, 105, 70, 92, 17, 120, 55, 110, 11];
+
+// let total =0;
+// for(const fof of cart ){
+//     total += fof ;
+// }
+// for (let i = 0; i < cart.length; i +=1) {
+//     console.log(cart[i]);
+//     total += cart[i];
+
+
+
+// }
+// for (let i = 0; i < cart.length; i +=1){
+//     console.log(cart[i]);
+//     total += cart[i];
+// }
+// console.log( `Total` , total);
+
+// 22222222222----------------------------------
+const numbers = [ 1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11, 14];
+let total = 0;
+
+
+// for (let i = 0 ; i < numbers.length ; i +=1) {
+//     const number = numbers[i];
+//     console.log(number);
+    
+
+//     if(numbers[i] %2 === 0 ){
+//     console.log(`Ділиться на 2 !!!`);
+//     total += number;
+// }
+// }
+// for (const number of numbers){
+//     console.log(number);
+
+//     if(number %2 === 0 ){
+//             console.log(`${number} - Урааа`);
+//             total += number;
+//         }
+// }
+// for (const number of numbers){
+    
+
+//     if(number %2 !== 0 ){
+//         console.log(`Цю дію не виконувати !!!`, number);    
+//         continue;  
+//         }
+//         console.log(`${number} - Урааа`);
+//         total += number;
+// }
+
+
+// console.log(`Total:`, total);
+
+// 3---------------
+const logins = [`m4ngoDoge`,`k1widab3st`, 'poly1scute',  `aj4xth3m4n`]
+const loginTofind = 'poly1scute' ; 
+let motto = '';
+for ( let i = 0; i < logins.length; i +=1){
+    const login = logins[i];
+
+if(login ===loginTofind ){
+motto = "цей користувач знайдено";
+break;
+}
+motto = 'цей користувач не знайдений ';
+}
+    console.log(motto);

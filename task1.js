@@ -287,8 +287,8 @@
 // console.log( `Total` , total);
 
 // 22222222222----------------------------------
-const numbers = [ 1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11, 14];
-let total = 0;
+// const numbers = [ 1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11, 14];
+// let total = 0;
 
 
 // for (let i = 0 ; i < numbers.length ; i +=1) {
@@ -324,16 +324,176 @@ let total = 0;
 // console.log(`Total:`, total);
 
 // 3---------------
-const logins = [`m4ngoDoge`,`k1widab3st`, 'poly1scute',  `aj4xth3m4n`]
-const loginTofind = 'poly1scute' ; 
-let motto = '';
-for ( let i = 0; i < logins.length; i +=1){
-    const login = logins[i];
+// const logins = [`m4ngoDoge`,`k1widab3st`, 'poly1scute',  `aj4xth3m4n`]
+// const loginTofind = 'poly1scute' ; 
+// let message = '';
 
-if(login ===loginTofind ){
-motto = "цей користувач знайдено";
-break;
-}
-motto = 'цей користувач не знайдений ';
-}
-    console.log(motto);
+// for (const login of logins){
+
+//     if (login === loginTofind ){
+
+//         message ='Користувач знайдений';
+//         break;
+//     }
+//     message = 'Користувач не знайдений'
+// }
+// console.log(message);
+
+
+
+// let message = '';
+
+// for (let i = 0; i < logins.length ; i +=1){
+// const login = logins[i];
+
+// if( login === loginTofind ){
+
+//     message = 'КОристувач знайдений';
+//     break;
+// }
+// message = 'Користувач не знайдений ';
+
+// }
+// console.log(message);
+// console.log(logins.includes('poly1scute'));
+// const message = logins.includes(loginTofind) ? 'ага' : ' ні' ;
+// console.log(message);
+
+
+
+
+
+// 4++++++++++++++++++++++++++++++++++++++++++++++++
+
+// const numbers = [51, 18, 13, 24, 7, 85, 19 ];
+//  let litle = numbers[0];
+
+//  for (const number of numbers){
+
+// if( number < litle){
+
+//     litle = number;
+// }
+
+//  }
+//  console.log(litle);
+
+
+// 5+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// const friends = [`Mango`,`Poly`, 'Kiwi', `Ajax`];
+// //  let strin = '';
+
+// //  for (const friend of friends){
+
+// //     strin += friend  +'555';
+// //  }
+// //  strin = strin.slice(0, strin.length - 3);
+// const strin = friends.join(',');
+//  console.log(strin);
+ 
+
+// 6+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// const title = 'Top 10 benefits of React Framework';
+
+// const normaltitle = title.toLowerCase();
+// // console.log(normaltitle);
+
+
+
+// const word = normaltitle.split(' ');
+// // console.log(word);
+
+
+// const slug = word.join('-');
+// const slug1 = title.toLowerCase().split(' ').join('-');
+
+
+// console.log(slug);
+
+
+// 7++++++++++++++++++++++++++++++++++++++++
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30, ];
+// let total = 0;
+// const numbers = array1.concat(array2);
+
+
+// for(const number of numbers){
+//     total += number;
+// }
+// console.log(total);
+
+
+// 8+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// const add = function add (x, y){
+//     console.log(x);
+//     console.log(y);
+//     const result = x + y;
+//     console.log('x + y=', result);
+
+    
+
+//     console.log('Працюєєєє')
+// }
+// add(5, 3);
+// add(6, 7);
+
+// add(2, 5);
+
+
+
+
+
+
+
+
+//  const numbers = [51, 18, 13, 24, 7, 85, 19 ];
+//  let litle = numbers[0];
+
+//  for (const number of numbers){
+
+// if( number < litle){
+
+//     litle = number;
+// }
+
+//  }
+//  console.log(litle);
+
+
+// 
+// const numbers = ['Top 10 benefits of React Framework'];
+// numbers.push('fjdfdfd');
+// numbers.shift();
+
+
+// console.log(numbers);
+
+
+
+function makeArray(firstArray, secondArray, maxLength ) {
+
+  let frtrt = firstArray.concat(secondArray);
+
+  
+  
+  console.log(frtrt);
+
+  
+  
+    
+
+
+  }
+console.log(makeArray);
+
+makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2);
+makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"],3); 
+makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4);
+makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0) 
